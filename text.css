@@ -1,0 +1,124 @@
+.navbar {
+   box-shadow:  2px 2px 5px #3292a6 ;
+   opacity: 0.8;
+   background:#fff;
+   color:#3292a6;
+   background: black;
+   
+}
+.social1,.fab{
+    font-size: 25px;
+}
+/* Showcase */
+
+#showcase{
+    position: relative;
+    background: url(images/mountains.jpg);
+    min-height: 600px;
+    top: 0;
+}
+
+#showcase .primary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#showcase  img{
+    padding-top:16px;
+}
+
+#showcase .btn:hover{
+    background: skyblue;
+    color: #fff;
+}
+
+.btn:hover{
+    background: skyblue;
+    color: #fff;
+}
+
+/* boxes */
+#boxes .card2{
+    background: skyblue;
+}
+#boxes .card-body:hover{
+    background: skyblue;
+    color: #fff;
+}
+#boxes  p:hover{
+    color:#fff;
+}
+/* Tesla vehicles */
+
+#tesla-vehicles img:hover{
+     transform:translateY(15px);
+}
+
+#tesla-vehicles img:hover::before{
+    opacity: 1;
+}
+
+#machines{
+    background: skyblue;
+    color: #fff;
+    
+}
+
+#machines .column1{
+    margin-left: 300px;
+}
+#blog p{
+    color:skyblue
+}
+#contact .lead{
+    text-align: center;
+}
+
+#contact{
+    background: skyblue;
+    
+}
+#contact .footer-social{
+   text-align: center;
+   padding: 20px;
+   
+}
+
+#contact .fab{
+    padding: 5px;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .social1, .fab{
+       font-size: 20px;
+       
+    }
+    .social1 .link2{
+        padding-left: 8px;
+    }
+    .social1 .link3{
+        padding-left: 8px;
+    }
+    .social1 .link4{
+        padding-left: 8px;
+    }
+    #tesla-vehicles .img-2{
+        display: none;
+    }
+    #machines .column1{
+        margin-left: 0px;
+    }
+    #gadgets img{
+      display: none;   
+    }
+   
+}
+
+
